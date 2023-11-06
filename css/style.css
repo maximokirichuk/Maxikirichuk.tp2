@@ -1,10 +1,11 @@
+
 :root {
     
     --fuenteHeading: 'PT Sans', sans-serif;
     --fuenteParrafos: 'Open Sans', sans-serif;
 
-
---marron: rgb(206, 151, 1);
+--blanco:white;
+--marron:burlywood;
 --negro:black;
 --primario: rgb(34, 46, 136);
 --secundario:rgb(165, 35, 35);
@@ -19,4 +20,28 @@ ul{
 }
 a{
     text-decoration: none;
+}
+
+.wrapper{
+    display: grid;
+    grid-template: 1fr 4fr;
+    background-color:var(--negro);
+}
+.aside{
+    padding: 2rem;
+    color:var(--blanco);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.texto_footer{
+color: rgb(255, 255, 255);
+font-family: 'Cedarville Cursive';
 }
