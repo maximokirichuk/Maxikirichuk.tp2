@@ -1,0 +1,22 @@
+:root {
+    
+    --fuenteHeading: 'PT Sans', sans-serif;
+    --fuenteParrafos: 'Open Sans', sans-serif;
+
+
+--marron: rgb(206, 151, 1);
+--negro:black;
+--primario: rgb(34, 46, 136);
+--secundario:rgb(165, 35, 35);
+}
+
+h1, h2, h3, h4, h5, h6, p, input, textarea, ul{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none; 
+}
+a{
+    text-decoration: none;
+}
