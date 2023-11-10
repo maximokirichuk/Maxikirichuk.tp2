@@ -321,8 +321,8 @@ color: var(--clr-white);
     text-align: center;
 }
 button {
-    background-color: black; /* Fondo negro para el botón */
-    color: white; /* Texto blanco para el botón */
+    background-color: black; 
+    color: white; 
     border: none;
     padding: 10px 20px;
     border-radius: 5px;

@@ -95,7 +95,7 @@ function actualizarTotal() {// el total de la compra sumando los subtotales
 }
 
 botonComprar.addEventListener("click", comprarCarrito);
-function comprarCarrito() {//se concluye la compra
+function comprarCarrito() {//se termina la compra
 
     productosEnCarrito.length = 0;
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
