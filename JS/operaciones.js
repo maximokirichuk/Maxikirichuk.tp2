@@ -200,7 +200,10 @@ const productos = [
         },
         precio: 19000
     }
+                                 //barras
+   
 ];
+
 
 
 const contenedorProductos = document.querySelector("#contenedor-productos");
